@@ -1,7 +1,35 @@
 body{
     background-color: bisque;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
-    color: brown;
-    display: inline-block;
+    font-size: 50px;    
 }
+.orangeColor{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.halfContainer{
+    width: 50%;
+    float: left;
+    
+}
+.welcome{
+    padding-left: 5%;
+}
+.halfContainer img{
+    width: 75%;
+    float: right;
+    padding-right: 15%;
+}
+.hireButton{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* 4-5 finish */
