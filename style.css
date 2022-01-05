@@ -53,6 +53,7 @@ h1{
     margin-right: 5%;
     padding-left: 20px;
     box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
 }
 h2{
     font-size: 40px;
@@ -63,3 +64,14 @@ h2{
     background-position-y: bottom;
 }
 /* module 4-8 finish */
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(201, 81, 68), tomato) 30;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+}
+footer{
+    text-align: center;
+}
